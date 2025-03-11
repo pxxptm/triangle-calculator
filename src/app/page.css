@@ -1,0 +1,286 @@
+  .container {
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .box {
+    background-color: #e0e7ff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 56rem;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .card {
+    background-color: #e0e7ff;
+    padding: 2.25rem 2rem;
+    width: 50%;
+    height: 100%;
+    max-width: 28rem;
+  }
+
+  .card-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+  }
+
+  .input-group {
+    width: 100%;
+    display: flex;
+    height: 45px;
+    padding-left: 1rem;
+  }
+
+  .input-label {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 22%;
+    margin: 0 0 0.43rem 0;
+  }
+
+  .input-box {
+    width: 100%;
+    border: 2px solid #b9b9b9;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 1.1rem;
+    background-color: #facc15;
+  }
+
+  .input-error {
+    color: rgb(181, 0, 0);
+    font-size: 0.75rem;
+    margin: 0.1rem 0 0 0;
+  }
+
+  .result-zone {
+    width: 100%;
+    display: flex;
+    padding: 0 0 0 1rem;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100%;
+  }
+
+  .result-button-zone {
+    width: 22%;
+    display: flex;
+  }
+
+  .enter-button {
+    background-color: #000000;
+    border: 1.5px solid black;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+    height: 2.2rem;
+    transition: background-color 0.3s;
+    font-size: 0.9rem;
+    color: white; 
+    width: 80%;
+  }
+
+  .enter-button:hover {
+    font-weight: bold;
+    background-color: #000000;
+}
+
+  #result-container {
+    flex-grow: 1;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    margin: auto 0 0 0;
+  }
+  
+  .result-box {
+    width: 100%;
+    border: 2px solid #b9b9b9;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 1.1rem;
+    background-color: #facc15;
+    height: 2.2rem;
+    border: 1.5px solid black;
+  }
+
+  .result-card {
+    background-color: e0e7ff;
+    padding: 2rem;
+    width: 50%;
+    max-width: 28rem;
+    margin: 0 0 0 auto;
+  }
+
+  .result-card-show {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+  }
+
+  #default {
+    padding: 0.75rem 1.5rem 2.25rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border: 2px solid #b9b9b9;
+  }
+  
+  #not-triangle {
+    background-color: rgb(255, 220, 220);
+    border: 2px solid red;
+    padding: 0 2rem 1.5rem 2rem;
+  }
+  
+  #triangle-card {
+    padding: 0.75rem 0.75rem 2.75rem 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border: 2px solid #b9b9b9;
+  }
+  
+  #triangle-suggestion-button-zone {
+    width: 100%;
+    display: flex;
+  }
+  
+  .triangle-suggestion-button {
+    color: white;
+    background-color: #b9b9b9;
+    border: 0;
+    border-radius: 1rem;
+    padding: 0 0.5rem;
+    height: 1.5rem;
+    transition: background-color 0.1s;
+    font-size: 0.75rem;
+    margin: 0 0 0 auto;
+  }
+
+  .triangle-suggestion-button:hover {
+    background-color: #595959;
+    cursor: pointer;
+  }
+  
+  #triangle-pic {
+    margin: 0 auto;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin-top: -1.25rem;
+  }
+
+  #triangle-type-text {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0.75rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }  
+
+  #triangle-description-text {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #not-triangle-text {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 1.5rem 0 1.2rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: rgb(170, 0, 0);
+  }
+
+  .not-triangle-title-text {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 0 0.55rem 0;
+    width: 100%;
+    display: flex;
+    position: relative;
+    color: rgb(111, 21, 21);
+  }
+
+  .not-triangle-body-text {
+    font-size: 0.93rem;
+    margin: 0 0 0.5rem 0;
+    width: 100%;
+    display: flex;
+    position: relative;
+  }
+
+  #no-input-text {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 1.5rem 0 0.25rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: rgb(70, 70, 70);
+  }
+
+  #no-input-description {
+    font-size: 0.85rem;
+    margin: 0 0 0.5rem 0;
+    width: 100%;
+    display: flex;
+    position: relative;
+    color: rgb(70, 70, 70);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+
+  #input-criteria {
+    font-size: 0.9rem;
+    line-height: 1.75rem;
+    width: 100%;
+    color: rgb(70, 70, 70);
+    margin: 0 auto;
+    padding: 0 0.75rem;
+  }
+
+  .criteria-number {
+    font-size: 0.7rem;
+    line-height: 1.75rem;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    margin: 0 0.75rem 0 auto;
+    padding: 0.3rem 0.5rem;
+    border-radius: 2rem;
+    background-color: rgb(167, 167, 167);
+  }
+  
+  .heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
