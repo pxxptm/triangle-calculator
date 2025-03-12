@@ -18,7 +18,7 @@ export function displayTriangle(triangleType: string, a: number, b: number, c: n
                         <title>{z}</title>
                         {formatNumber(z)}
                     </text>
-                    <text x="0" y="60" style={textStyle}>
+                    <text x="-8" y="60" style={textStyle}>
                         <title>{x}</title>
                         {formatNumber(x)}
                     </text>
@@ -36,7 +36,7 @@ export function displayTriangle(triangleType: string, a: number, b: number, c: n
                         <title>{x}</title>
                         {formatNumber(x)}
                     </text>
-                    <text x="20" y="60" style={textStyle}>
+                    <text x="3" y="60" style={textStyle}>
                         <title>{x}</title>
                         {formatNumber(x)}
                     </text>
@@ -68,7 +68,7 @@ export function displayTriangle(triangleType: string, a: number, b: number, c: n
                                     <title>{equalSide}</title>
                                     {formatNumber(equalSide)}
                                 </text>
-                                <text x="20" y="60" style={textStyle}>
+                                <text x="3" y="60" style={textStyle}>
                                     <title>{equalSide}</title>
                                     {formatNumber(equalSide)}
                                 </text>
@@ -89,7 +89,7 @@ export function displayTriangle(triangleType: string, a: number, b: number, c: n
                         <title>{z}</title>
                         {formatNumber(z)}
                     </text>
-                    <text x="0" y="60" style={textStyle}>
+                    <text x="-8" y="60" style={textStyle}>
                         <title>{x}</title>
                         {formatNumber(x)}
                     </text>
